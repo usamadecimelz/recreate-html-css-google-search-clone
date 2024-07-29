@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    height:100vh
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+
+.header a{
+    margin: 20px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: inherit;
+
+}
+.header a:hover{
+    text-decoration: underline;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+
+}
+
+.material-symbols-outlined{
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.623);
+    cursor: pointer;
+    ;
+}
+
+.mainbody{
+    flex:1;
+    display: flex;
+    margin-top: 12%;
+    flex-direction: column;
+}   
+
+.main-body img{
+    display: block;
+    object-fit: contain;
+    padding-top: 62px;
+    /* padding-left: 520px; */
+    height: 130px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    float:center
+    
+
+}
+
+.search-input{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgrey;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 550px;
+    
+}
+
+.search-input input{
+    flex: 1;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+
+}
+
+.search-input .material-icons{
+    color:gray;
+
+}
+
+.search-button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.search-button button{
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    color: rgba(0, 0, 0, 0.753);
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.i{
+    width: 13.2px;
+    height: 19.3px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.j{
+    width: 27.8px;
+    height: 27px;
+    cursor: pointer;
+    padding: 5px;
+    justify-content: center;
+}
